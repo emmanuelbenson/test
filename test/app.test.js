@@ -5,7 +5,7 @@ const { expect } = require('chai');
 
 chai.use(chaiHttp);
 
-describe('Server', () => {
+describe('Server!', () => {
 	describe('#/api/v1', () => {
 		it('Should welcome user to api', done => {
 			chai
